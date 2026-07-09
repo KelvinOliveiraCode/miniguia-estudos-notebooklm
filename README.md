@@ -1,5 +1,13 @@
 # Miniguia de Estudos - Engenharia de Prompts com NotebookLM
 
+# NotebookLM
+
+O caderno temático utilizado neste projeto pode ser acessado pelo link abaixo:
+
+```
+https://notebooklm.google.com/notebook/51ff79c0-4835-4d17-a536-f61670f03d00
+```
+
 ## Sobre o Projeto
 
 Este repositório foi desenvolvido como parte do desafio de projeto da DIO com o objetivo de explorar o NotebookLM como uma ferramenta de aprendizagem ativa.
@@ -456,13 +464,7 @@ A organização das fontes, a experimentação com diferentes estratégias de pr
 
 ---
 
-# NotebookLM
 
-O caderno temático utilizado neste projeto pode ser acessado pelo link abaixo:
-
-```
-https://notebooklm.google.com/notebook/51ff79c0-4835-4d17-a536-f61670f03d00
-```
 
 ---
 
