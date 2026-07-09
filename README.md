@@ -1,7 +1,5 @@
 # Miniguia de Estudos - Engenharia de Prompts com NotebookLM
 
-# NotebookLM
-
 O caderno temático utilizado neste projeto pode ser acessado pelo link abaixo:
 
 ```
