@@ -1,469 +1,136 @@
-# Miniguia de Estudos - Engenharia de Prompts com NotebookLM
+# miniguia-estudos-notebooklm — Miniguia de Estudos: Engenharia de Prompts com NotebookLM
 
-O caderno temático utilizado neste projeto pode ser acessado pelo link abaixo:
+![Status](https://img.shields.io/badge/Status-Concludido-2EA44F?style=flat-square)
+![Google NotebookLM](https://img.shields.io/badge/Google_NotebookLM-Study_Tool-4285F4?style=flat-square&logo=googlegemini&logoColor=white)
+![Prompt Engineering](https://img.shields.io/badge/Prompt_Engineering-10_Experiments-764ABC?style=flat-square)
+![Markdown](https://img.shields.io/badge/Markdown-083FA1?style=flat-square&logo=markdown&logoColor=white)
+![DIO](https://img.shields.io/badge/DIO-Desafio-9046F5?style=flat-square)
 
-```
-https://notebooklm.google.com/notebook/51ff79c0-4835-4d17-a536-f61670f03d00
-```
+> Caderno temático do projeto: https://notebooklm.google.com/notebook/51ff79c0-4835-4d17-a536-f61670f03d00
 
-## Sobre o Projeto
-
-Este repositório foi desenvolvido como parte do desafio de projeto da DIO com o objetivo de explorar o NotebookLM como uma ferramenta de aprendizagem ativa.
-
-O tema escolhido foi **Engenharia de Prompts para Inteligência Artificial Generativa**, por ser uma das competências mais relevantes para profissionais que trabalham com IA atualmente.
-
-Ao longo deste projeto, foram selecionadas fontes oficiais, realizados testes de prompts, analisados os resultados obtidos e consolidado um material de estudo que poderá ser reutilizado futuramente.
+**Miniguia de Estudos — Engenharia de Prompts com NotebookLM** é um guia prático documentado com experimentos reais, não teoria copiada: cada um dos 10 prompts testados no NotebookLM tem seu resultado observado e o aprendizado registrado. O tema escolhido foi Engenharia de Prompts para IA Generativa, estudada sobre curadoria de fontes oficiais (OpenAI, Google AI, Microsoft Learn, Anthropic e Prompt Engineering Guide) e organizada em um caderno temático único. A proposta é usar o NotebookLM como ferramenta de aprendizagem ativa — o repositório é o registro completo dessa metodologia: fontes, experimentos, troubleshooting e os prompts reutilizáveis que sobreviveram aos testes.
 
 ---
 
-# Objetivos
+## 🇧🇷 Português
 
-Os principais objetivos deste estudo são:
+### Sobre
 
-- Compreender os fundamentos da Engenharia de Prompts;
-- Conhecer as principais técnicas utilizadas por modelos de IA Generativa;
-- Aprender boas práticas para construção de prompts eficientes;
-- Identificar erros comuns durante a elaboração de prompts;
-- Desenvolver um material de revisão baseado em documentação oficial;
-- Utilizar o NotebookLM como ferramenta de organização do conhecimento.
+Guia prático documentado com experimentos reais de engenharia de prompts dentro do NotebookLM, desenvolvido como desafio de projeto da DIO sobre aprendizagem ativa com IA. O material é reutilizável: serve tanto como revisão de engenharia de prompts quanto como template metodológico para estudar qualquer tema via NotebookLM.
 
----
+### Objetivos
 
-# Ferramentas Utilizadas
+- Compreender os fundamentos da Engenharia de Prompts
+- Conhecer as principais técnicas usadas com modelos de IA Generativa
+- Aprender boas práticas de construção de prompts eficientes
+- Identificar erros comuns na elaboração de prompts
+- Desenvolver material de revisão baseado em documentação oficial
+- Usar o NotebookLM como ferramenta de organização do conhecimento
 
-- NotebookLM
-- GitHub
-- Markdown
-- Inteligência Artificial Generativa
+### Curadoria de fontes
 
----
-
-# Curadoria de Fontes
-
-As seguintes fontes abertas foram utilizadas para alimentar o NotebookLM:
+As fontes alimentadas no NotebookLM são todas documentação oficial:
 
 | Fonte | Link |
-|-------|------|
-| OpenAI – Prompt Engineering Guide | https://platform.openai.com/docs/guides/prompt-engineering |
-| Google AI – Prompt Design Guide | https://ai.google.dev/gemini-api/docs/prompting-intro |
-| Microsoft Learn – Prompt Engineering | https://learn.microsoft.com/azure/ai-foundry/openai/concepts/prompt-engineering |
-| Anthropic – Prompt Engineering Overview | https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview |
+|---|---|
+| OpenAI — Prompt Engineering Guide | https://platform.openai.com/docs/guides/prompt-engineering |
+| Google AI — Prompt Design Guide | https://ai.google.dev/gemini-api/docs/prompting-intro |
+| Microsoft Learn — Prompt Engineering | https://learn.microsoft.com/azure/ai-foundry/openai/concepts/prompt-engineering |
+| Anthropic — Prompt Engineering Overview | https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview |
 | Prompt Engineering Guide | https://www.promptingguide.ai/ |
 
----
+### Os 10 experimentos
 
-# Engenharia de Prompts
+Cada prompt foi documentado individualmente com resultado observado e aprendizado:
 
-Durante a construção do caderno temático foram realizados diversos testes para avaliar como pequenas alterações nos prompts impactam a qualidade das respostas produzidas pelo NotebookLM.
+| # | Prompt | Resultado | Aprendizado |
+|---|---|---|---|
+| 1 | `Explique Engenharia de Prompts como se eu fosse um iniciante.` | Visão geral clara, porém superficial | Prompts introdutórios funcionam melhor quando pedem exemplos |
+| 2 | `Explique Engenharia de Prompts utilizando exemplos em Python.` | Resposta significativamente mais útil | — |
+| 3 | `Faça uma tabela comparando Zero-shot, One-shot e Few-shot Prompting.` | Tabela facilitou bastante a compreensão | — |
+| 4 | `Explique Chain of Thought passo a passo utilizando exemplos.` | Compreensão melhor da técnica | — |
+| 5 | `Resuma todo o conteúdo em apenas uma página.` | Excelente para revisões rápidas | — |
+| 6 | `Gere 20 perguntas de revisão com respostas.` | Material útil para autoavaliação | — |
+| 7 | `Gere um mapa mental em formato textual.` | Boa organização das ideias | — |
+| 8 | `Explique quais erros iniciantes cometem ao escrever prompts.` | Listou problemas frequentes e soluções | — |
+| 9 | `Crie um roteiro de estudos de 7 dias utilizando este material.` | Plano consistente e organizado | — |
+| 10 | `Utilize apenas as informações presentes nas fontes anexadas.` | Respostas mais confiáveis e alinhadas ao material | — |
 
-## Prompt 1
+### Cicatrizes (Troubleshooting)
 
-**Objetivo**
+Problemas reais encontrados durante os testes, com exemplo e solução:
 
-Introduzir o tema.
+| Problema | Exemplo | Solução |
+|---|---|---|
+| Prompt muito genérico | `Explique IA.` → resposta superficial | Adicionar contexto: `Explique Inteligência Artificial Generativa para um desenvolvedor iniciante utilizando exemplos.` |
+| Respostas muito longas | — | Limitar o tamanho: `Responda em até 10 linhas.` |
+| Informações além das fontes | — | `Utilize apenas as fontes anexadas.` |
+| Poucos exemplos | — | `Inclua exemplos práticos.` |
 
-```text
-Explique Engenharia de Prompts como se eu fosse um iniciante.
-```
+### Técnicas cobertas no guia
 
-### Resultado
+Zero-shot, One-shot, Few-shot, Chain of Thought, Role Prompting e Context Prompting — definidas com exemplos no material, junto de glossário (prompt, LLM, token, contexto, hallucination, context window) e prompts reutilizáveis para resumo, revisão, flashcards, mapa mental, perguntas de entrevista e exemplos em Python.
 
-A resposta apresentou uma visão geral clara, porém superficial.
+### Organização do caderno
 
-### Aprendizado
-
-Prompts introdutórios funcionam melhor quando solicitam exemplos.
-
----
-
-## Prompt 2
-
-**Objetivo**
-
-Obter exemplos práticos.
-
-```text
-Explique Engenharia de Prompts utilizando exemplos em Python.
-```
-
-### Resultado
-
-A resposta tornou-se significativamente mais útil.
+O NotebookLM foi estruturado em 15 seções: Objetivo do Estudo, Resumo Geral, Glossário, Técnicas, Boas Práticas, Erros Comuns, Comparação entre Técnicas, Perguntas de Revisão, Flashcards, Quiz, Mapa Mental, Plano de Estudos, Resumo Executivo, Perguntas de Entrevista e Exemplos em Python.
 
 ---
 
-## Prompt 3
+## 🇺🇸 English
 
-**Objetivo**
+### About
 
-Comparar técnicas.
+A practical guide documented with real prompt engineering experiments inside NotebookLM, built as a DIO project challenge on active learning with AI. The material is reusable: it works both as a prompt engineering review and as a methodological template for studying any topic through NotebookLM.
 
-```text
-Faça uma tabela comparando Zero-shot, One-shot e Few-shot Prompting.
-```
+### Goals
 
-### Resultado
+- Understand prompt engineering fundamentals
+- Learn the main techniques used with generative AI models
+- Learn best practices for building efficient prompts
+- Identify common prompt-writing mistakes
+- Build review material grounded in official documentation
+- Use NotebookLM as a knowledge organization tool
 
-A organização em tabela facilitou bastante a compreensão.
+### Source curation
 
----
+All sources fed into NotebookLM are official documentation: OpenAI's Prompt Engineering Guide, Google AI's Prompt Design Guide, Microsoft Learn's Prompt Engineering, Anthropic's Prompt Engineering Overview, and promptingguide.ai.
 
-## Prompt 4
+### The 10 experiments
 
-**Objetivo**
+Each prompt was documented individually with observed result and takeaway. Highlights: asking for Python examples (prompt 2) made answers significantly more useful; comparative tables (prompt 3) clarified technique differences; grounding ("use only the attached sources", prompt 10) made responses more reliable and aligned with the material. Full detail, prompt by prompt, in the sections below.
 
-Entender o raciocínio da IA.
+| # | Prompt | Observed result |
+|---|---|---|
+| 1 | Beginner-level explanation request | Clear but shallow overview |
+| 2 | Explain with Python examples | Significantly more useful response |
+| 3 | Comparison table: Zero/One/Few-shot | Table made comprehension much easier |
+| 4 | Chain of Thought, step by step | Better understanding of the technique |
+| 5 | One-page summary | Excellent for quick review |
+| 6 | 20 review questions with answers | Useful self-assessment material |
+| 7 | Textual mind map | Good idea organization |
+| 8 | Common beginner mistakes | Listed frequent problems and fixes |
+| 9 | 7-day study plan | Consistent, organized plan |
+| 10 | "Use only the attached sources" | More reliable, source-aligned answers |
 
-```text
-Explique Chain of Thought passo a passo utilizando exemplos.
-```
+### Scars (Troubleshooting)
 
-### Resultado
+Real problems hit during testing, each with example and fix: overly generic prompts (`Explain AI.` → superficial; fix: add context and audience), overly long answers (fix: cap length, "answer in at most 10 lines"), information beyond the sources (fix: "use only the attached sources"), and too few examples (fix: "include practical examples").
 
-Foi possível compreender melhor o funcionamento da técnica.
+### Techniques covered in the guide
 
----
+Zero-shot, One-shot, Few-shot, Chain of Thought, Role Prompting, and Context Prompting — defined with examples, plus a glossary (prompt, LLM, token, context, hallucination, context window) and reusable prompts for summaries, review, flashcards, mind maps, interview questions, and Python examples.
 
-## Prompt 5
+### Notebook organization
 
-**Objetivo**
-
-Produzir um resumo para revisão.
-
-```text
-Resuma todo o conteúdo em apenas uma página.
-```
-
-### Resultado
-
-Excelente para revisões rápidas.
-
----
-
-## Prompt 6
-
-**Objetivo**
-
-Fixação do conteúdo.
-
-```text
-Gere 20 perguntas de revisão com respostas.
-```
-
-### Resultado
-
-Material útil para autoavaliação.
+The NotebookLM notebook was structured in 15 sections: Study Goal, General Summary, Glossary, Techniques, Best Practices, Common Mistakes, Technique Comparison, Review Questions, Flashcards, Quiz, Mind Map, Study Plan, Executive Summary, Interview Questions, and Python Examples.
 
 ---
 
-## Prompt 7
+## Autor
 
-**Objetivo**
+**Kelvin Oliveira** — [GitHub](https://github.com/KelvinOliveiraCode) · [LinkedIn](https://www.linkedin.com/in/kelvin-oliveira-0282033b4/)
 
-Organizar conceitos.
+## Licença
 
-```text
-Gere um mapa mental em formato textual.
-```
-
-### Resultado
-
-Boa organização das ideias.
-
----
-
-## Prompt 8
-
-**Objetivo**
-
-Identificar dificuldades comuns.
-
-```text
-Explique quais erros iniciantes cometem ao escrever prompts.
-```
-
-### Resultado
-
-Listou problemas frequentes e suas soluções.
-
----
-
-## Prompt 9
-
-**Objetivo**
-
-Criar um plano de estudos.
-
-```text
-Crie um roteiro de estudos de 7 dias utilizando este material.
-```
-
-### Resultado
-
-Plano consistente e organizado.
-
----
-
-## Prompt 10
-
-**Objetivo**
-
-Reduzir respostas fora das fontes.
-
-```text
-Utilize apenas as informações presentes nas fontes anexadas.
-```
-
-### Resultado
-
-As respostas tornaram-se mais confiáveis e alinhadas ao material estudado.
-
----
-
-# Cicatrizes (Troubleshooting)
-
-Durante os testes alguns problemas foram identificados.
-
-## Problema
-
-Prompt muito genérico.
-
-### Exemplo
-
-```text
-Explique IA.
-```
-
-### Resultado
-
-Resposta superficial.
-
-### Solução
-
-Adicionar contexto.
-
-```text
-Explique Inteligência Artificial Generativa para um desenvolvedor iniciante utilizando exemplos.
-```
-
----
-
-## Problema
-
-Respostas muito longas.
-
-### Solução
-
-Limitar o tamanho.
-
-```text
-Responda em até 10 linhas.
-```
-
----
-
-## Problema
-
-Informações além das fontes.
-
-### Solução
-
-```text
-Utilize apenas as fontes anexadas.
-```
-
----
-
-## Problema
-
-Poucos exemplos.
-
-### Solução
-
-```text
-Inclua exemplos práticos.
-```
-
----
-
-# Miniguia de Estudo
-
-## O que é Engenharia de Prompts?
-
-Engenharia de Prompts consiste na elaboração de instruções claras e estruturadas para que modelos de Inteligência Artificial produzam respostas mais precisas, úteis e contextualizadas.
-
----
-
-## Principais Técnicas
-
-### Zero-shot Prompting
-
-Nenhum exemplo é fornecido ao modelo.
-
-Exemplo:
-
-```text
-Traduza este texto para inglês.
-```
-
----
-
-### One-shot Prompting
-
-Um exemplo é apresentado antes da solicitação.
-
----
-
-### Few-shot Prompting
-
-São fornecidos vários exemplos para orientar o modelo.
-
----
-
-### Chain of Thought
-
-Incentiva o modelo a explicar seu raciocínio antes da resposta final.
-
----
-
-### Role Prompting
-
-Define um papel para o modelo.
-
-Exemplo:
-
-```text
-Você é um professor de Ciência da Computação.
-```
-
----
-
-### Context Prompting
-
-Adiciona informações extras para contextualizar a tarefa.
-
----
-
-# Glossário
-
-| Conceito | Definição |
-|----------|-----------|
-| Prompt | Instrução enviada ao modelo de IA. |
-| LLM | Large Language Model. |
-| Token | Unidade de texto processada pelo modelo. |
-| Contexto | Informações adicionais fornecidas ao modelo. |
-| Hallucination | Resposta criada sem suporte nas fontes utilizadas. |
-| Zero-shot | Técnica sem exemplos. |
-| One-shot | Técnica utilizando um exemplo. |
-| Few-shot | Técnica utilizando vários exemplos. |
-| Chain of Thought | Explicação passo a passo do raciocínio. |
-| Role Prompting | Técnica que atribui um papel ao modelo. |
-| Context Window | Quantidade máxima de informações consideradas pelo modelo durante a resposta. |
-
----
-
-# Prompts Reutilizáveis
-
-## Resumo
-
-```text
-Resuma este documento destacando apenas os conceitos mais importantes.
-```
-
-## Explicação para iniciantes
-
-```text
-Explique este conteúdo como se eu estivesse estudando o assunto pela primeira vez.
-```
-
-## Revisão
-
-```text
-Crie 20 perguntas com respostas utilizando apenas as fontes anexadas.
-```
-
-## Mapa Mental
-
-```text
-Organize este conteúdo em formato de mapa mental textual.
-```
-
-## Flashcards
-
-```text
-Transforme este conteúdo em flashcards.
-```
-
-## Perguntas para entrevistas
-
-```text
-Crie perguntas de entrevista técnica com respostas comentadas.
-```
-
-## Exemplos em programação
-
-```text
-Mostre exemplos utilizando Python.
-```
-
-## Revisão rápida
-
-```text
-Resuma todo o conteúdo em apenas uma página.
-```
-
-## Aprofundamento
-
-```text
-Explique cada conceito utilizando exemplos e analogias.
-```
-
-## Respostas fundamentadas
-
-```text
-Responda exclusivamente utilizando as informações presentes nas fontes anexadas.
-```
-
----
-
-# Organização do NotebookLM
-
-O NotebookLM foi estruturado da seguinte forma:
-
-```text
-NotebookLM
-│
-├── 01 - Objetivo do Estudo
-├── 02 - Resumo Geral
-├── 03 - Glossário
-├── 04 - Técnicas de Prompt Engineering
-├── 05 - Boas Práticas
-├── 06 - Erros Comuns
-├── 07 - Comparação entre Técnicas
-├── 08 - Perguntas de Revisão
-├── 09 - Flashcards
-├── 10 - Quiz
-├── 11 - Mapa Mental
-├── 12 - Plano de Estudos
-├── 13 - Resumo Executivo
-├── 14 - Perguntas de Entrevista
-└── 15 - Exemplos em Python
-```
-
----
-
----
-
-# Conclusão
-
-A utilização do NotebookLM demonstrou como a Inteligência Artificial pode atuar como uma ferramenta de apoio à aprendizagem quando combinada com documentação oficial e uma boa Engenharia de Prompts.
-
-A organização das fontes, a experimentação com diferentes estratégias de prompting e a consolidação do conhecimento em um único caderno permitiram construir um material de estudo reutilizável, confiável e de fácil consulta.
-
----
-
-
-
----
-
-Projeto desenvolvido como parte do desafio de projeto da **Digital Innovation One (DIO)**, utilizando o NotebookLM para estudo dirigido sobre Engenharia de Prompts em Inteligência Artificial Generativa.
+Projeto educacional, desenvolvido para o desafio da DIO. Sem licença de software formal — os materiais servem como referência de estudo.
