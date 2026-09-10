@@ -129,7 +129,7 @@ The NotebookLM notebook was structured in 15 sections: Study Goal, General Summa
 
 ## Autor
 
-**Kelvin Oliveira** — [GitHub](https://github.com/KelvinOliveiraCode) · [LinkedIn](https://www.linkedin.com/in/kelvin-oliveira-0282033b4/)
+**Kelvin Oliveira** — [GitHub](https://github.com/KelvinOliveiraCode) · [LinkedIn](https://www.linkedin.com/in/kelvin-oliveira-code/)
 
 ## Licença
 
