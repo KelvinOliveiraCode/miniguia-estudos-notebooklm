@@ -1,61 +1,50 @@
-# MiniGuia Estudos NotebookLM — Engenharia de Prompts
+# miniguia-estudos-notebooklm
 
-![status: concluido](https://img.shields.io/badge/status-concluido-green)  
-![licenca: MIT](https://img.shields.io/badge/licenca-MIT-blue)
+![status: concluido](https://img.shields.io/badge/status-concluido-green)   ![licenca: MIT](https://img.shields.io/badge/licenca-MIT-blue)
 
-### Descrição
-Miniguia de engenharia de prompts com NotebookLM: 10 prompts testados.
+## Resumo
 
-### O que faz
-Miniguia de engenharia de prompts com NotebookLM: 10 prompts testados.
+Miniguia de engenharia de prompts com NotebookLM: 10 prompts testados | Prompt engineering miniguide with NotebookLM
 
-### Tecnologias
-- NotebookLM
-- Prompt
+## Problema / por que existe
 
-### Como usar
-Copie o prompt para a ferramenta de IA desejada.
+O projeto oferece um guia, modelo ou plano de estudo para um tema especifico, com foco em praticidade e aplicacao direta.
 
-### Estrutura
-Consulte a árvore do repositório para a organização exata de pastas e arquivos.
+## O que contem
 
-### Testes
-Não há contagem de testes registrada nesta metadata. Adicione e execute testes apropriados à linguagem (pytest para Python, ./mvnw test para Java, npm test para JavaScript/TypeScript).
+Miniguia de engenharia de prompts com NotebookLM: 10 prompts testados | Prompt engineering miniguide with NotebookLM
 
-### Licença
-MIT
+## Como usar
 
-### Autor
-Kelvin Oliveira — github.com/KelvinOliveiraCode
+Consulte os arquivos do repositorio. Abra cada documento e aplique as orientacoes no contexto desejado.
 
----
+## Estrutura do projeto
 
-# NotebookLM Study MiniGuide — Prompt Engineering
+- LICENSE, README.en.md, README.md
 
-![status: concluido](https://img.shields.io/badge/status-concluido-green)  
-![license: MIT](https://img.shields.io/badge/license-MIT-blue)
 
-### Description
-Prompt engineering miniguide with NotebookLM: 10 tested prompts.
+## Tecnologias
 
-### What it does
-Prompt engineering miniguide with NotebookLM: 10 tested prompts.
+Documentacao / guia (sem codigo de aplicacao).
 
-### Technologies
-- NotebookLM
-- Prompt
+## Trade-offs e decisões
 
-### How to use
-Copy the prompt into the desired AI tool.
+- Formato aberto (markdown, texto, planilha) para facilitar adaptacao.
+- Foco em conteudo pratico e aplicavel.
 
-### Structure
-Check the repository tree for the exact folder and file organization.
+## Limitações conhecidas
 
-### Tests
-No test count recorded in this metadata. Add and run tests appropriate for the language (pytest for Python, ./mvnw test for Java, npm test for JavaScript/TypeScript).
+- Guia de referencia; nao substitui ferramenta automatizada.
 
-### License
-MIT
+## Testes
 
-### Author
-Kelvin Oliveira — github.com/KelvinOliveiraCode
+Nao se aplica (conteudo de referencia).
+
+## Licença
+
+Distribuído sob a licenca MIT. Consulte o arquivo `LICENSE` do repositorio.
+
+## Autor
+
+Kelvin Oliveira, https://github.com/KelvinOliveiraCode
+Portfolio: https://kelvinoliveiracode.github.io/portfolio/
