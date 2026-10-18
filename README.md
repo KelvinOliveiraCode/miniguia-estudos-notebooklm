@@ -14,7 +14,7 @@
 
 ## O que é
 
-Miniguia de engenharia de prompts com NotebookLM: 10 prompts testados | Prompt engineering miniguide with NotebookLM
+Miniguia de engenharia de prompts com NotebookLM: 10 prompts testados
 
 ---
 
